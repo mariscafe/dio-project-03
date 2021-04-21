@@ -1,7 +1,7 @@
 ﻿@model Vaquinha.Domain.ViewModels.DoacaoViewModel
 
 @{
-    ViewData["Title"] = "Doar agora";
+    ViewData["Title"] = "Vaquinha Online - Doar Agora";
 }
 
 
@@ -16,6 +16,10 @@
                 <div class="form-group">
                     <label asp-for="Valor" class="control-label"></label>
                     <input asp-for="Valor" id="valor" placeholder="Valor doação" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="AceitaTaxa" class="control-label"></label>
+                    <input asp-for="AceitaTaxa" />
                 </div>
             </div>
             <hr />
@@ -136,7 +140,7 @@
 
     <div class="text-center">
         <div class="form-group">
-            <input type="submit" value="Doar" class="btn btn-yellow" />
+            <input type="submit" value="Doar" class="btn btn-blue" />
         </div>
     </div>
 

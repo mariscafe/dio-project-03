@@ -30,13 +30,13 @@ namespace Vaquinha.Unit.Tests.ControllerTests
         private DoacoesController _doacaoController;
         private readonly IDoacaoService _doacaoService;
 
-        private Mock<IMapper> _mapper;
-        private Mock<IPaymentService> _polenService = new Mock<IPaymentService>();
-        private Mock<ILogger<DoacoesController>> _logger = new Mock<ILogger<DoacoesController>>();
+        private readonly Mock<IMapper> _mapper;
+        private readonly Mock<IPaymentService> _polenService = new Mock<IPaymentService>();
+        private readonly Mock<ILogger<DoacoesController>> _logger = new Mock<ILogger<DoacoesController>>();
 
-        private IDomainNotificationService _domainNotificationService = new DomainNotificationService();
+        private readonly IDomainNotificationService _domainNotificationService = new DomainNotificationService();
 
-        private Mock<IToastNotification> _toastNotification = new Mock<IToastNotification>();
+        private readonly Mock<IToastNotification> _toastNotification = new Mock<IToastNotification>();
 
         private readonly Doacao _doacaoValida;
         private readonly DoacaoViewModel _doacaoModelValida;

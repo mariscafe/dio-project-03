@@ -36,6 +36,7 @@ namespace Vaquinha.Service.AutoMapper
 
             CreateMap<DoacaoViewModel, Doacao>()
                 .ForCtorParam("valor", opt => opt.MapFrom(src => src.Valor))
+                .ForCtorParam("aceitaTaxa", opt => opt.MapFrom(src => src.AceitaTaxa))
                 .ForCtorParam("dadosPessoais", opt => opt.MapFrom(src => src.DadosPessoais))
                 .ForCtorParam("formaPagamento", opt => opt.MapFrom(src => src.FormaPagamento))
                 .ForCtorParam("enderecoCobranca", opt => opt.MapFrom(src => src.EnderecoCobranca));

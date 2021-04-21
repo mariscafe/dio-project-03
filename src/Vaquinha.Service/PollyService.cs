@@ -8,7 +8,7 @@ namespace Vaquinha.Service
 {
     public class PollyService : IPollyService
     {
-        private GloballAppConfig _globallAppConfig;
+        private readonly GloballAppConfig _globallAppConfig;
         private readonly ILogger<PollyService> _logger;
 
         public PollyService(ILogger<PollyService> logger, GloballAppConfig globallAppConfig)

@@ -2,16 +2,16 @@
 @using System.Globalization 
 
 @{
-    ViewData["Title"] = "Vaquinha online";
+    ViewData["Title"] = "Vaquinha Online - Home";
 }
 
 <div class="text-center">
-    <h3>Vaquinha online</h3>
+    <h3>Vaquinha Online</h3>
 
     <hr />
 
     <p>        
-        <a asp-controller="Doacoes" asp-action="Create" class="btn btn-yellow">
+        <a asp-controller="Doacoes" asp-action="Create" class="btn btn-blue">
             <span></span>Doar agora
         </a>
     </p>
@@ -61,7 +61,7 @@
         <h4>Quem já doou?</h4>
 
         <div id="carouselDoadores" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" style="background-color: gray;">
+            <div class="carousel-inner" style="background-color: #80B4BF;">
                 @foreach (var item in Model.Doadores)
                 {
                     var active = "";
@@ -101,7 +101,7 @@
     <h4>Para onde vai minha doação? </h4>
 
     <div id="carouselInstituicoes" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" style="background-color: gray;">
+        <div class="carousel-inner" style="background-color: #80B4BF;">
             @foreach (var item in Model.Instituicoes)
             {
                 var active = "";

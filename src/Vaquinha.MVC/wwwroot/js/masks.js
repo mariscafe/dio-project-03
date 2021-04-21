@@ -13,7 +13,7 @@
         groupSeparator: ".",
         allowMinus: false,
         prefix: '',
-        digits: 0,
+        digits: 2,
         digitsOptional: true,
         rightAlign: true,
         unmaskAsNumber: true

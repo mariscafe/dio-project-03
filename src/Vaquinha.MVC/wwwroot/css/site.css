@@ -74,25 +74,30 @@ body {
     font-family: sans-serif;
     
     /* background-image: url('../images/so-white.png');*/
-    background-color: #fff5d7;
+    background-color: #F2F2F2;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 40px; /* Vertically center the text there */
-  background-color: #ff5e6c;
-  color:#ffffff !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 40px; /* Vertically center the text there */
+    background-color: #BF3B3B;
+    color: #ffffff !important;
 }
 
 .bg-pink {
-  background-color: #ff5e6c;
-  color: #ffffff;
+    background-color: #BF3B3B;
+    color: #ffffff;
 }
 
 .btn-yellow {
-  background-color: #feb300;
+    background-color: #feb300;
+}
+
+.btn-blue {
+    background-color: #20788C;
+    color: #FFFFFF;
 }
 
 .pink-leaf {
